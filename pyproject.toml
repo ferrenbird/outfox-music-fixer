@@ -1,0 +1,16 @@
+[project]
+name = "outfox-music-fixer"
+version = "0.1.0"
+description = "StepMania/Project OutFox music library metadata inspector."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "PyQt6>=6.9",
+]
+
+[project.scripts]
+outfox-music-fixer = "outfox_music_fixer.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
